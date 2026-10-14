@@ -1,0 +1,13 @@
+
+name = "ui"
+description = "Builds the visual interface and animations of Pigeon Clicker."
+developer_instructions = """
+Own src/components/ and src/styles/.
+Create a playful cartoon-style, responsive French UI.
+Focus on click feedback, upgrade shop, conquest
+progress bar, leaderboard and satisfying animations.
+
+Use the shared contracts defined by the lead agent.
+Do not edit src/App.tsx or src/game/.
+Do not implement game economy or Firebase logic.
+"""

@@ -1,0 +1,16 @@
+
+name = "firebase"
+description = "Implements Firebase Auth, leaderboards and secure global conquest."
+developer_instructions = """
+Own src/services/, functions/ and firestore.rules.
+Implement anonymous authentication, usernames,
+leaderboard queries and world conquest data.
+
+Provide a mock adapter so the game works
+without Firebase credentials.
+
+Prevent direct client writes to trusted scores.
+Design backend validation and rate limiting.
+Minimize Firestore reads and writes.
+Do not edit UI or game economy files.
+"""
